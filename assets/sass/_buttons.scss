@@ -1,0 +1,87 @@
+.btn {
+  border-radius: 3px;
+  font-weight:bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+    &-theme {
+      background: $theme !important;
+      border: 1px solid $theme !important;
+      color: #eee !important;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $theme-hover !important;
+        border: 1px solid $theme-hover !important;
+        color: #eee !important;
+      }
+    }
+
+  &-theme02 {
+    background: $theme02 !important;
+    border: 1px solid $theme02 !important;
+    color: $theme !important;
+    &:hover,
+    &:focus,
+    &:active {
+      background: $theme02-hover !important;
+      border: 1px solid $theme02-hover !important;
+      color: $theme !important;
+    }
+  }
+
+  &-theme03 {
+    background: $theme03 !important;
+    border: 1px solid $theme03 !important;
+    color: #eee !important;
+    &:hover,
+    &:focus,
+    &:active {
+      background: $theme03-hover !important;
+      border: 1px solid $theme03-hover !important;
+      color: #eee !important;
+    }
+  }
+
+  &-theme04 {
+    background: $theme04 !important;
+    border: 1px solid $theme04 !important;
+    color: #eee !important;
+    &:hover,
+    &:focus,
+    &:active {
+      background: $theme04-hover !important;
+      border: 1px solid $theme04-hover !important;
+      color: #eee !important;
+    }
+  }
+
+  &-theme05 {
+    background: $theme05 !important;
+    border: 1px solid $theme05 !important;
+    color: #eee !important;
+    &:hover,
+    &:focus,
+    &:active {
+      background: $theme05-hover !important;
+      border: 1px solid $theme05-hover !important;
+      color: #eee !important;
+    }
+  }
+
+  &-white {
+    background: #fff !important;
+    border: 2px solid #fff !important;
+    color: #666 !important;
+    &:hover,
+    &:focus,
+    &:active {
+      background: #eee !important;
+      border: 2px solid #eee !important;
+      color: #666 !important;
+    }
+  }
+
+}

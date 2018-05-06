@@ -1,0 +1,93 @@
+@media screen and (max-width: 700px) {
+  /*--------------------------------------
+    [NAVBAR]
+  --------------------------------------*/
+
+  .navbar-theme {
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .navbar-theme #navbar {
+    background: $theme;
+    border-bottom: 2px solid $theme02;
+  }
+
+  .navbar-theme .navbar-brand>img {
+    display: block;
+    max-width: 100px;
+  }
+
+
+  .navbar-theme .navbar-toggle {
+    border-color:transparent;
+  }
+
+  .navbar-theme .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+  }
+
+  .navbar-theme .navbar-toggle .icon-bar {
+    background-color: #eee;
+  }
+/*--------------------------------------
+  [HERO]
+--------------------------------------*/
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero .jumbotron {
+    padding: 100px 10px 30px 10px;
+  }
+
+
+  /*--------------------------------------
+    [SECTIONS]
+  --------------------------------------*/
+
+
+  .section-layer {
+    margin: 15px 0px 15px 0px;
+    padding: 25px 10px 25px 10px;
+  }
+
+  section .section-content .section-title {
+    font-size: 1.5em;
+  }
+
+  section .section-content {
+    margin-bottom: 30px;
+  }
+
+  .section-counter {
+    background: #002e5b !important;
+    background-size: 100%;
+  }
+
+  .contact-row {
+    margin-top: 10px;
+  }
+
+  .section-testimonial {
+    background: #002e5b;
+  }
+
+  figure.featured {
+    padding-top: 20px;
+    padding-bottom: 20px;}
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .navbar-theme .navbar-brand>img {
+    max-width: 100px;
+  }
+
+}
